@@ -1,0 +1,113 @@
+ui/ux design
+------------------------------------------------
+
+
+DESIGN THINKING :
+
+we have 5 phases in design thinking.
+
+. EMPATHIZE
+. DEFINE
+. IDEATE
+. PROTOTYPE
+. TEST
+. IMPLEMENT
+
+
+-> this process is not linear
+-> It’s important to understand the principles related to each stage so that you can draw on them throughout your work on a particular project. For example, you’ll need to draw on empathy when conducting user research at the beginning of a project, and when you’re prototyping your product and trying to understand how your user might interact with it. 
+
+=> we use tools like Figma or Sketch to implement this design process
+
+personas and Jobs-to-be-Done(JTBD) are the 2 most essential concepts in ui/ux design
+
+Personas:
+
+Personas are fictional representations of users, providing insights into their characteristics and behaviors
+
+JTBD:
+
+ JTBD focuses on identifying the specific tasks users are trying to accomplish with a product or service, enabling designers to create solutions that meet user needs
+
+Affinity Mapping:
+
+Affinity mapping is a method used to organize and categorize ideas, data, or user feedback into meaningful groups, which helps designers or stakeholders to identify common themes and insights for informing the design process.
+
+
+crazy 8s is a sketching technique used to generate a variety of ideas at the beginning of a design project
+
+
+DESIGN PATTERNS AND WIRE FRAMING:
+
+A design pattern refers to how a screen’s design elements are arranged.
+
+For example, when signing up for an app, a common pattern includes form fields, checkboxes, and a submission button. Previous designers have conducted a lot of research to understand how users interact with different layouts. Because of this existing research, as a new designer, it’s a good practice to mimic the layout of popular apps and products when designing your own screens
+
+
+WIRE FRAMES:
+
+
+
+
+PROTOTYPING:
+
+prototyping is a critical step in ux design process. 
+
+-> it allows designers to quickly test and validate their ideas with users, uncover potential usability issues, and provide insights needed to refine the user interface. 
+
+TYPOGRAPHY IN MOBILE WEB DESIGN:
+
+typography  is to include in a design, leaning on familiar, easily recognizable typeface is often recommended
+
+IMAGES IN MOBILE APP UX:
+
+We can also use images to improve the overall user experience of a product.
+
+Images help to capture a User's attention.
+
+
+
+5 PRINCIPLES OF VISUAL DESIGN IN UX:
+
+. Scale  - The Principle of scale refers to using relative size to signal importance and rank in a composition.
+
+. Visual Hierarchy - guiding the eye on the page so that it attends to design elements in the order of their importance
+
+. Balance - Balance occurs when there is an equally distributed amount of visual signal on both sides of an imaginary axis  
+
+(or)
+
+A satisfying arrangement or proportion of design elements. Balance occurs when there is an equally distributed (but not necessarily symmetrical) amount of visual signal on both sides of an imaginary axis going through the middle of the screen. This axis is often vertical but can also be horizontal.
+
+
+. Contrast - The principle of contrast refers to the juxtaposition(placing contrasting elements) of the visually dissimilar elements in order to convey the fact that these elements are different.
+
+(or)
+
+The juxtaposition of visually dissimilar elements in order to convey the fact that these elements are different (e.g., belong in different categories, have different functions, behave differently).
+
+. Gestalt Principles - Gestalt principles captures our tendency to perceive the whole as opposed to the individual elements
+
+(or)
+
+Principles that explain how humans simplify and organize complex images that consist of many elements, by subconsciously arranging the parts into an organized system that creates a whole, rather than interpreting them as a series of disparate elements. In other words, Gestalt principles capture our tendency to perceive the whole as opposed to the individual elements.
+
+
+---------------------------------------
+
+
+
+Congratulations on making it to the end of this course! With this course, you’ve gotten an overview of the principles, processes, and skills involved in becoming a UX designer. To start your journey, you will need a portfolio with comprehensive case studies demonstrating your skills and knowledge of the UX design process.
+
+If you feel confident that you'd like to pursue a career in design, we encourage you to apply to our UI/UX Design Career Track. In addition to fine-tuning the skills you have started to learn in this course, you will also dive much deeper into a variety of elements of design. The Career Track is designed to give you the robust knowledge and hands-on experience needed to succeed in the design industry, and you can also look forward to:
+
+Working on an exciting array of portfolio-worthy projects, designed to help you showcase your skills to potential employers
+Curated career units and 1:1 calls with a career coach, who will help you break into the design industry and support you in your job search
+Weekly calls with a personal mentor who will help you along on your career path, as well as unlimited calls with our host of on-call mentors who can help you troubleshoot tools and give you feedback on projects
+Work with a real-life client on a project, which you can add to your portfolio and resume
+Learn about additional industry knowledge that is critical to success, such as accessibility, design ethics, and designing with business goals in mind as part of a cross-functional team.
+If you’re still exploring if a career in Design is right for you, check out our 4-week Introduction to Design course, where you’ll work through this same curriculum alongside your personal mentor, community of students, and have a call with a career coach.
+
+Congrats again on completing the course! We wish you the very best on your journey to becoming a UX designer.
+
+
