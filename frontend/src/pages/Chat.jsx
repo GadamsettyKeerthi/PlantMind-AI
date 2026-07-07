@@ -15,14 +15,25 @@ function Chat() {
     }
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/chat", {
-        question: question,
-      });
+      const res = await axios.post(
+        "https://plant-mind-ai-u9hp.vercel.app/chat",
+        {
+          question: question,
+        }
+      );
 
       setAnswer(res.data.answer);
+
     } catch (err) {
-      console.log(err);
-      alert("Backend is not running.");
+      console.error(err);
+
+      if (err.response) {
+        console.log("Status:", err.response.status);
+        console.log("Data:", err.response.data);
+        alert(JSON.stringify(err.response.data));
+      } else {
+        alert(err.message);
+      }
     }
   };
 
