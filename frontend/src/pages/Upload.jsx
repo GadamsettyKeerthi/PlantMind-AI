@@ -21,7 +21,7 @@ function Upload() {
     try {
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload",
+      "https://plant-mind-ai-u9hp.vercel.app/upload",
         formData,
         {
           headers: {
@@ -33,12 +33,16 @@ function Upload() {
       alert(response.data.message);
 
     } catch (error) {
+  console.error(error);
 
-      console.log(error);
-
-      alert("Upload Failed");
-
-    }
+  if (error.response) {
+    console.log("Status:", error.response.status);
+    console.log("Data:", error.response.data);
+    alert(JSON.stringify(error.response.data));
+  } else {
+    alert(error.message);
+  }
+}
 
   };
 
