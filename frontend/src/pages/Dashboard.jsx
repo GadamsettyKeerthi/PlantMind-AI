@@ -12,9 +12,7 @@ function Dashboard() {
 
         <div className="flex-1 bg-gray-100 min-h-screen p-8">
 
-          <h1 className="text-4xl font-bold mb-8">
-            PlantMind AI Dashboard
-          </h1>
+          <h1>PlantMind AI – Industrial Knowledge Intelligence</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
 
@@ -51,9 +49,7 @@ function Dashboard() {
             </h2>
 
             <p className="text-gray-700 leading-8">
-              Upload industrial documents such as PDF, DOCX, TXT, PPTX, XLSX and CSV files.
-              Search any keyword instantly, ask questions about the uploaded document,
-              and generate document summaries without using any paid AI API.
+              PlantMind AI centralizes industrial knowledge by allowing engineers to upload maintenance records, SOPs, inspection reports, engineering drawings, manuals, and compliance documents. Using Retrieval-Augmented Generation (RAG), it delivers intelligent answers, maintenance insights, and compliance assistance from a unified knowledge base.
             </p>
 
           </div>
