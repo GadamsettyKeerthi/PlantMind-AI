@@ -16,29 +16,29 @@ function Dashboard() {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
 
-            <StatCard
-              title="Uploaded Files"
-              value="1"
-              color="text-blue-600"
-            />
+           <StatCard
+  title="Industrial Documents"
+  value="1"
+  color="text-blue-600"
+/>
 
-            <StatCard
-              title="Searches"
-              value="5"
-              color="text-green-600"
-            />
+<StatCard
+  title="Equipment Records"
+  value="5"
+  color="text-green-600"
+/>
 
-            <StatCard
-              title="AI Chats"
-              value="3"
-              color="text-purple-600"
-            />
+<StatCard
+  title="AI Knowledge Queries"
+  value="3"
+  color="text-purple-600"
+/>
 
-            <StatCard
-              title="Summaries"
-              value="2"
-              color="text-orange-600"
-            />
+<StatCard
+  title="Compliance Checks"
+  value="2"
+  color="text-orange-600"
+/>
 
           </div>
 
