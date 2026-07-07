@@ -1,75 +1,69 @@
+import { Link, useLocation } from "react-router-dom";
 import {
-  FaChartPie,
-  FaUpload,
-  FaRobot,
-  FaSearch,
-  FaFileAlt,
-} from "react-icons/fa";
-
-import { Link } from "react-router-dom";
+  LayoutDashboard,
+  FolderOpen,
+  Bot,
+  Wrench,
+  ShieldCheck,
+} from "lucide-react";
 
 function Sidebar() {
+  const location = useLocation();
+
+  const menus = [
+    {
+      name: "Dashboard",
+      icon: <LayoutDashboard size={22} />,
+      path: "/",
+    },
+    {
+      name: "Document Repository",
+      icon: <FolderOpen size={22} />,
+      path: "/upload",
+    },
+    {
+      name: "Expert Knowledge Copilot",
+      icon: <Bot size={22} />,
+      path: "/chat",
+    },
+    {
+      name: "Maintenance Intelligence",
+      icon: <Wrench size={22} />,
+      path: "/search",
+    },
+    {
+      name: "Compliance Intelligence",
+      icon: <ShieldCheck size={22} />,
+      path: "/summary",
+    },
+  ];
+
   return (
-    <div className="bg-slate-900 text-white w-64 min-h-screen p-6">
+    <div className="w-72 min-h-screen bg-slate-900 text-white">
 
-      <h2 className="text-xl font-bold mb-10">
+      <div className="text-3xl font-bold p-6 border-b border-slate-700">
         MENU
-      </h2>
+      </div>
 
-      <ul className="space-y-6">
+      <div className="mt-4">
 
-        <li>
+        {menus.map((menu) => (
           <Link
-            to="/"
-            className="flex items-center gap-3 hover:text-blue-400"
+            key={menu.name}
+            to={menu.path}
+            className={`flex items-center gap-4 px-6 py-4 text-lg transition duration-200
+              ${
+                location.pathname === menu.path
+                  ? "bg-blue-600"
+                  : "hover:bg-slate-800"
+              }`}
           >
-            <FaChartPie />
-            Dashboard
+            {menu.icon}
+            {menu.name}
           </Link>
-        </li>
+        ))}
 
-        <li>
-          <Link
-            to="/upload"
-            className="flex items-center gap-3 hover:text-blue-400"
-          >
-            <FaUpload />
-            Upload Documents
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/chat"
-            className="flex items-center gap-3 hover:text-blue-400"
-          >
-            <FaRobot />
-            AI Chat
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/search"
-            className="flex items-center gap-3 hover:text-blue-400"
-          >
-            <FaSearch />
-            Search
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/summary"
-            className="flex items-center gap-3 hover:text-blue-400"
-          >
-            <FaFileAlt />
-            Summary
-          </Link>
-        </li>
-
-      </ul>
-
+      </div>
     </div>
   );
 }
